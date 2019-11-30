@@ -120,8 +120,8 @@ public class VendaInfoView extends View {
 		String[] pagamentoModelContent = new String[fpList.size() + 1];
 		
 		pagamentoModelContent[0] = "Selecione uma opção";
-		for(int i = 1; i < fpList.size(); i++) {
-			pagamentoModelContent[i] = fpList.get(i).getPagamentoTipo();
+		for(int i = 0; i < fpList.size(); i++) {
+			pagamentoModelContent[i + 1] = fpList.get(i).getPagamentoTipo();
 		}
 		
 		pagamento = new JComboBox();
