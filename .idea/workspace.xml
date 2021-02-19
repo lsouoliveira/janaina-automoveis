@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1075cdac-4dc7-47e4-a60b-eb4135842ec4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/postgresql-42.2.19.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ufc/janaina/base/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ufc/janaina/base/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ufc/janaina/ui/views/JanelaPrincipalView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ufc/janaina/ui/views/JanelaPrincipalView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/janaina.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/janaina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/janaina_bemvindo.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/janaina_bemvindo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/janaina_splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/janaina_splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/base/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/base/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/base/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/base/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/dao/Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/dao/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/dao/Filter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/DatabaseConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/DatabaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/AvaliacaoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/AvaliacaoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/FormaPagamentoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/FormaPagamentoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/MontadoraDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/MontadoraDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/TesteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/TesteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/VeiculoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/VeiculoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/VendaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/VendaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/VendedorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/dao/VendedorDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/filters/AvaliacaoFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/filters/AvaliacaoFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/filters/TesteFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/filters/TesteFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/filters/VendaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/jdbc/filters/VendaFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Avaliacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Avaliacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/FormaPagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/FormaPagamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Montadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Montadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/NotaFiscal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/NotaFiscal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Orcamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Orcamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Teste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Teste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Usuario$AdminLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Usuario$AdminLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Veiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Veiculo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Venda$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Venda$Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Venda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Venda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Vendedor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/models/Vendedor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/services/Auth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/services/Auth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/services/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/services/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/AppUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/AppUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarAvaliacaoView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarAvaliacaoView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarAvaliacaoView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarAvaliacaoView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarAvaliacaoView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarAvaliacaoView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarAvaliacaoView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarAvaliacaoView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarClientesView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarMontadorasView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarTestesView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVeiculosView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendasView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/BuscarVendedoresView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarAvaliacaoCarro$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarAvaliacaoCarro$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarAvaliacaoCarro$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarAvaliacaoCarro$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarAvaliacaoCarro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarAvaliacaoCarro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarClienteView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarClienteView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarClienteView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarClienteView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarClienteView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarClienteView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarMontadoraView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarMontadoraView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarMontadoraView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarMontadoraView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarMontadoraView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarMontadoraView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarTesteView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarTesteView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarTesteView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarTesteView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarTesteView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarTesteView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVeiculoView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVeiculoView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVeiculoView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVeiculoView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVeiculoView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVeiculoView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVeiculoView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVeiculoView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendaView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendaView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendaView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendaView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendaView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendaView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendaView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendaView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendedorView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendedorView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendedorView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendedorView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendedorView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/CadastrarVendedorView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/FormasPagamentoView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/FormasPagamentoView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/FormasPagamentoView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/FormasPagamentoView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/FormasPagamentoView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/FormasPagamentoView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarNotaFiscalVendaView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarNotaFiscalVendaView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarNotaFiscalVendaView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarNotaFiscalVendaView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarOrcamentoVeiculoView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarOrcamentoVeiculoView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarOrcamentoVeiculoView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarOrcamentoVeiculoView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarOrcamentoVeiculoView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarOrcamentoVeiculoView$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarOrcamentoVeiculoView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/GerarOrcamentoVeiculoView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/JanelaPrincipalView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/JanelaPrincipalView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/MostrarOrcamentoVeiculoView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/MostrarOrcamentoVeiculoView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/MostrarOrcamentoVeiculoView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/MostrarOrcamentoVeiculoView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/MostrarRelatorioVendasView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/MostrarRelatorioVendasView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/MostrarRelatorioVendasView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/MostrarRelatorioVendasView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/TesteCadastro2View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/TesteCadastro2View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/VendaInfoView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/VendaInfoView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/ViewFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/ViewFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/ViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/views/ViewManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/BlankWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/BlankWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/LoginWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/LoginWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/LoginWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/LoginWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/SystemWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/WindowFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/ui/windows/WindowFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufc/janaina/utils/DateFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ufc/janaina/utils/DateFormat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/janaina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/janaina_bemvindo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/janaina_splash.png" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/jdbc/DatabaseConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/jdbc/DatabaseConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/utils/DateFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/views/JanelaPrincipalView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/views/ViewFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/windows/SystemWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="208" selection-start-line="208" selection-end-line="208" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/services/AuthService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/windows/LoginWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/dao/Dao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/jdbc/dao/VendedorDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1225">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/ufc/janaina/base/App.java" />
+        <option value="$PROJECT_DIR$/src/com/ufc/janaina/ui/views/JanelaPrincipalView.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="369" />
+    <option name="width" value="1152" />
+    <option name="height" value="664" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="janaina" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="janaina" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="janaina" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="janaina" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="janaina" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="janaina" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="janaina" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="janaina" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="janaina-automoveis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="janaina" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613740841207" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/postgresql-42.2.19.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4841629" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ufc.janaina.base.Main" />
+      <module name="ESApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ufc.janaina.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ESApp []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.ESApp []" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1075cdac-4dc7-47e4-a60b-eb4135842ec4" name="Default Changelist" comment="" />
+      <created>1613738742700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613738742700</updated>
+      <workItem from="1613738770981" duration="1979000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1979000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Persistence" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Archetypes" weight="0.32977587" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4994664" weight="0.32969433" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50160086" side_tool="true" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49573106" weight="0.32969433" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49839914" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/jdbc/dao/VendaDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/views/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/views/VendaInfoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/windows/BlankWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/windows/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/views/BuscarClientesView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/views/BuscarAvaliacaoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/views/FormasPagamentoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/AppUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/base/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/janaina_splash.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/base/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/windows/WindowFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/jdbc/dao/ClienteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/jdbc/dao/AvaliacaoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/services/Auth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/services/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/dao/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/jdbc/dao/VendedorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1225">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/jdbc/DatabaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/jdbc/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/utils/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/views/ViewFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/windows/SystemWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/windows/LoginWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ufc/janaina/ui/views/JanelaPrincipalView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ESApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4841629" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4841629" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

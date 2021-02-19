@@ -15,7 +15,7 @@ public class JanelaPrincipalView extends View {
 		setLayout(new BorderLayout(0, 0));
 		
 		//JLabel lblBemVindo = new JLabel("BEM VINDO #_#");
-		JLabel lblBemVindo = new JLabel(new ImageIcon(getClass().getResource("/resources/janaina_bemvindo.png")));
+		JLabel lblBemVindo = new JLabel(new ImageIcon(getClass().getClassLoader().getResource("janaina_bemvindo.png")));
 		lblBemVindo.setHorizontalAlignment(SwingConstants.CENTER);
 		add(lblBemVindo, BorderLayout.CENTER);
 	}

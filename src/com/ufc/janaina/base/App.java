@@ -48,7 +48,7 @@ public class App {
 	
 	public void launch() {
 		// Show splash screen
-		ImageIcon loadingImg = new ImageIcon(getClass().getResource("/resources/janaina_splash.png"));
+		ImageIcon loadingImg = new ImageIcon(getClass().getClassLoader().getResource("janaina_splash.png"));
 		
 		while(loadingImg.getImageLoadStatus() != MediaTracker.COMPLETE);
 		
